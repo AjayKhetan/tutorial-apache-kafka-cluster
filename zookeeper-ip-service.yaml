@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: zookeeper-ip-service
 spec:
-  type: ClusterIP 
+  type: LoadBalancer 
   selector:
     component: zookeeper
   ports:
